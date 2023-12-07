@@ -1,0 +1,6 @@
+---
+- name: Setting the HAProxy
+  hosts: proxies
+  roles:
+    - haproxy
+
